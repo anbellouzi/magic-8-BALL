@@ -14,6 +14,9 @@
 		C40D1E4923847E8B00FDB7E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40D1E4723847E8B00FDB7E6 /* LaunchScreen.storyboard */; };
 		C40D1E5423847E8C00FDB7E6 /* Magic8BllTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40D1E5323847E8C00FDB7E6 /* Magic8BllTests.swift */; };
 		C40D1E5F23847E8C00FDB7E6 /* Magic8BllUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40D1E5E23847E8C00FDB7E6 /* Magic8BllUITests.swift */; };
+		C40D1E6E23847FB500FDB7E6 /* app_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C40D1E6C23847FB400FDB7E6 /* app_icon@2x.png */; };
+		C40D1E6F23847FB500FDB7E6 /* app_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C40D1E6D23847FB400FDB7E6 /* app_icon@3x.png */; };
+		C40D1E7123849DD500FDB7E6 /* IdeasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40D1E7023849DD500FDB7E6 /* IdeasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		C40D1E5A23847E8C00FDB7E6 /* Magic8BllUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Magic8BllUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40D1E5E23847E8C00FDB7E6 /* Magic8BllUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic8BllUITests.swift; sourceTree = "<group>"; };
 		C40D1E6023847E8C00FDB7E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40D1E6C23847FB400FDB7E6 /* app_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_icon@2x.png"; sourceTree = "<group>"; };
+		C40D1E6D23847FB400FDB7E6 /* app_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_icon@3x.png"; sourceTree = "<group>"; };
+		C40D1E7023849DD500FDB7E6 /* IdeasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +105,11 @@
 			children = (
 				C40D1E3E23847E8700FDB7E6 /* AppDelegate.swift */,
 				C40D1E4023847E8700FDB7E6 /* ViewController.swift */,
+				C40D1E7023849DD500FDB7E6 /* IdeasViewController.swift */,
 				C40D1E4223847E8700FDB7E6 /* Main.storyboard */,
 				C40D1E4523847E8B00FDB7E6 /* Assets.xcassets */,
+				C40D1E6C23847FB400FDB7E6 /* app_icon@2x.png */,
+				C40D1E6D23847FB400FDB7E6 /* app_icon@3x.png */,
 				C40D1E4723847E8B00FDB7E6 /* LaunchScreen.storyboard */,
 				C40D1E4A23847E8B00FDB7E6 /* Info.plist */,
 			);
@@ -230,8 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C40D1E4923847E8B00FDB7E6 /* LaunchScreen.storyboard in Resources */,
+				C40D1E6E23847FB500FDB7E6 /* app_icon@2x.png in Resources */,
 				C40D1E4623847E8B00FDB7E6 /* Assets.xcassets in Resources */,
 				C40D1E4423847E8700FDB7E6 /* Main.storyboard in Resources */,
+				C40D1E6F23847FB500FDB7E6 /* app_icon@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C40D1E4123847E8700FDB7E6 /* ViewController.swift in Sources */,
+				C40D1E7123849DD500FDB7E6 /* IdeasViewController.swift in Sources */,
 				C40D1E3F23847E8700FDB7E6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
